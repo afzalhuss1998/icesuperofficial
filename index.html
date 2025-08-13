@@ -7,6 +7,36 @@
 <meta name="description" content="ICE SUPER ">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17452459593"></script>
+<script>
+  // Load once, configure multiple IDs
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  // Your accounts (keep both as requested)
+  gtag('config', 'AW-17452459593');
+  gtag('config', 'AW-XXXXXXXXXX');
+
+  // Conversion for Sign Up
+  function trackSignUpConversion() {
+    gtag('event', 'conversion', {
+      'send_to': 'AW-XXXXXXXXXX/abcdEFGHijkl',
+      'transaction_id': ''
+    });
+  }
+  <script>
+function trackSignUpConversion() {
+  gtag('event', 'conversion', {
+      'send_to': 'AW-XXXXXXXXXX/abcdEFGHijkl',
+      'transaction_id': ''
+  });
+}
+</script>
+
+<!-- Example Sign Up Button -->
+<button onclick="trackSignUpConversion()">Sign Up</button>
 <style>
   body {
     font-family: 'Poppins', sans-serif;
@@ -122,7 +152,7 @@
 
 <header>
   <h1 data-aos="fade-down">ICE SUPER</h1>
-  <p data-aos="fade-up">Start Your Own Betting Website Today – Ready in 24 Hours</p>
+  <p data-aos="fade-up">Rule Your Game, Rule Your Future</p>
   <a href="https://wa.me/447376666483" class="btn-primary" data-aos="zoom-in" target="_blank">for inquiry whatsapp</a>
   <a href="https://wa.me/447376666485" class="btn-primary" data-aos="zoom-in" target="_blank">for inquiry whatsapp</a>
 </header>
@@ -137,7 +167,7 @@
     </div>
     <div class="card" data-aos="zoom-in">
       <h3>Secure Platform</h3>
-      <p>Safe and reliable betting experience.</p>
+      <p>Safe and reliable experience.</p>
     </div>
     <div class="card" data-aos="zoom-in">
       <h3>24/7 Support</h3>
